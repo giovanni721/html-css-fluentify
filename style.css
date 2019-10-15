@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
+
 
 header{
     background-color: #0D325A;
@@ -12,19 +14,91 @@ header{
 
 .upp_container{
     height: 10vh;
-    width: 70%;
     margin: auto;
+    width: 70%;
     padding: 2vh;
 }
 
 #logo_button{
+    float: left;
     width: auto;
 }
 
-menu a{
+menu{
+    padding: 10px;
+}
+
+.menu_button{
     text-transform: uppercase;
     text-decoration: none;
-    float: right;
+    float: left;
     margin-left: 20px;
+    margin-top: 20px;
     color: white;
+    font-size: 11px;
+}
+
+.upp_right{
+    float: right;
+    margin-right: 15px;
+    width: 30%;
+}
+
+#jobs{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #C8D0D9;
+    font-size: 11px;
+}
+
+#login{
+    cursor: pointer;
+    border: 1px solid white;
+    background: none;
+    border-radius: 5px;
+    color: white;
+    padding:8px 20px;
+    text-transform: uppercase;
+}
+
+#button1{
+    cursor: pointer;
+    border: 1px solid black;
+    background: #7BBC00;
+    border-radius: 5px;
+    color: white;
+    padding:8px 20px;
+    text-transform: uppercase;
+}
+
+.low_container{
+    height: 40vh;
+    width: 80%;
+    margin-left: 20%;
+    position: relative;
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+    width: 55%;
+    position: absolute;
+    top: 20%;
+}
+
+.image{
+    width: 900px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.button{
+    cursor: pointer;
+    border: 1px solid #7BBC00;
+    background: #7BBC00;
+    border-radius: 5px;
+    color: white;
+    padding:12px 20px;
+    text-transform: uppercase;
 }
