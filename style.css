@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #0D325A;
+    height: 50vh;
+
+}
+
+.upp_container{
+    height: 10vh;
+    width: 70%;
+    margin: auto;
+    padding: 2vh;
+}
+
+#logo_button{
+    width: auto;
+}
+
+menu a{
+    text-transform: uppercase;
+    text-decoration: none;
+    float: right;
+    margin-left: 20px;
+    color: white;
+}
